@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Descobrindo sua nacionalidade</h1>
+        <p>Escolha o país em que você vive</p>
+        
+        <input type="text" name="txtpais" id="txtpais">
+        
+        <input type="button" value="verificar" id="verificar">
+        
+        <div id="resultado">
+            <p>sua nacionalidade é  </p>
+        </div>
+   <script>
+
+    //Cria uma lista com os páises disponíveis 
+       var paises = ['EUA', 'Brasil', 'Japão', 'Portugal', 'Grã Bretanha']
+       
+    //Armazena o país que o usuário digitou
+        var pais_pessoa = document.querySelector('input#txtpais')
+    
+    // Compara o valor que o usuário digitou com a lista de países disponíveis e retorna o resultado ao usuário.
+    function verificarnacionalidade () {
+
+        if (pais_pessoa == 'Brasil') {
+            console.log ("Você é Brasileiro")
+            }
+            
+            if (pais_pessoa == 'EUA') {
+                console.log ("Você é estrangeiro estrangeiro")
+                }
+
+                if (pais_pessoa == 'Japão') {
+                    console.log ("Você é Japonês")
+                    }
+            
+                    if (pais_pessoa == 'Portugal') {
+                    console.log ("Você é Portuguẽs")
+                        }
+
+                        if (pais_pessoa == 'Grã Bretanha') {
+                            console.log ("Você é Inglês")
+                            } else {
+                              console.log ("Nacionalidade não encontrada")
+                            }
+                    }
+
+
+        var verificar = document.querySelector("input#verificar")
+
+
+        
+
+
+        
+        document.getElementById('resultado') = document.innertHTML ('<p>Sua nacionalidade é ${pais_pesssoa}</p>') 
+    </script>
+</body>
+</html>
