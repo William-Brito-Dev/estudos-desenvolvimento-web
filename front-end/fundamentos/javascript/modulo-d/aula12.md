@@ -3,7 +3,7 @@
 ## Condições aninhadas
 
 - Conjunto de condições aninhadas em outra.
-
+```JS
 if (cond1) {
         bloco1
 } else {
@@ -13,7 +13,7 @@ if (cond1) {
         bloco3
     }
 }
-
+```
 
 Exemplo
 
