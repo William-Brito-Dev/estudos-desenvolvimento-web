@@ -1,19 +1,19 @@
-## Introdução ao DOM - aula 09
+# Introdução ao DOM - aula 09
 
-DOM (Document Object Model)
+## DOM (Document Object Model)
 
 - Conjunto de objetos no navegador.
 
 <br>
 
-Árvore DOM
+### Árvore DOM
 
 - Tudo que esta dentro do JS está no window.
 - Há muito mais elementos do que apenas esses.
 
 <br> 
 
-Elementos dentro de Window
+### Elementos dentro de Window
 
 - location
 - document - pai de html
@@ -28,13 +28,13 @@ Elementos dentro de Window
 
 <br>
 
-Seleção de elementos 
+### Seleção de elementos 
 
 - Muitos elementos da mesma classe selecionamos por Marca e por Nome. 
 
 <br>
 
-por Marca (tag)
+<strong>Por Marca (tag)</strong>
 
 - getElementByTagName()[]
 
@@ -44,7 +44,7 @@ por Marca (tag)
 
 <br>
 
-por ID
+<strong>Por ID</strong>
 
 - get.ElementById
     
@@ -52,7 +52,7 @@ por ID
 
 <br>
 
-por Nome
+<strong>Por Nome</strong>
 
 - get.ElementsByName()[] 
 
@@ -60,7 +60,7 @@ por Nome
 
 <br>
 
-por Classe
+<strong>Por Classe</strong>
 
 - get.ElementsByClassName()
     
@@ -68,7 +68,7 @@ por Classe
 
 <br>
 
-por Seletor (css) - **método mais recomendado**
+<strong>Por Seletor (css) - **método mais recomendado**</strong>
 
 - querySelector() - apenas um elementos
     - Usamos elemento html (div) e os atributos css de id (#) ou classe (.) 

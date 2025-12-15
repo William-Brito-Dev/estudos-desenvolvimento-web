@@ -4,6 +4,7 @@
 
 - Conjunto de condições aninhadas em outra.
 
+```
 var idade = 22
 
 if (idade < 18>) {
@@ -22,5 +23,5 @@ if (idade < 16) {
 } else () {
     console.log ('Voto obrigatório')
 }
-
+```
 

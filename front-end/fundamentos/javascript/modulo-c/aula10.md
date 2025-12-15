@@ -24,7 +24,7 @@ Exemplo
 
 - bloco: conjunto de linhas dentro de uma função
 
-Declarar função
+**Declarar função**
 
 - function - palavra reservada seguida de chaves { }
 
@@ -37,30 +37,25 @@ Declarar função
 - Opcionalmente podemos colocar parâmetros dentro dos ().
 
 
-Exemplo - função anõnima
+**Exemplo - função anônima**
 
-```function {
-
-}```
-
-
+```html
 Exemplo - função
 
-```function ação() {
+
+function ação() {
     bloco de instruções
 }
 
-<br>
 
 Evento de Click
 
 - Dentro do html adicionamos onclick="nome_da_acao"
-
-```html 
-    <div id="area" onclick="clicar" onmouseenter="entrar()" onmouseout="sair">
+ 
+<div id="area" onclick="clicar" onmouseenter="entrar()" onmouseout="sair">
         interaja...
-    </div>
-
+</div>
+<script>
     var area = document.getElementById('area')
     function clicar() {
         area.innerText = "Clicou!"
@@ -76,6 +71,7 @@ Evento de Click
     function sair(){
         area.innerText = 'Saiu!'
     }
+</script>
 ```
 
 - Além de disparar diretamente pelo html podemos usar listeners: 
@@ -117,5 +113,5 @@ Evento de Click
 Detectação de erros
 
 - o Js não avisa possíveis erros no código.
-- Abrir devtools para inspecionar erros.
+- Abrir Devtools para inspecionar erros.
 

@@ -59,15 +59,13 @@ if (pais == 'Brasil') {
 - A "direção" do código pode mudar e queremos executar apenas um parte desse código daí usamos condições.
 
 ### Desvios condicionais 
+```
 if (condições) {
-
     executa quando as condições são verdadeiras.
-
 } else {
-
     executa quando as condições são falsas.
-
 }
+```
 
 ### Tipos de condições
 - Codição simples: 
