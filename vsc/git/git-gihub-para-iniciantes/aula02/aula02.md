@@ -7,3 +7,4 @@
 - Tira snapshots dos estados dos arquivos de cada versão do código.
 - Leva o estado de cada versão.
 - Fica fácil de voltar a versões anteriores.
+
