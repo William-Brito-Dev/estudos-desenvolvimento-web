@@ -1,0 +1,7 @@
+# Módulos de download do Node.js 
+node_modules
+
+# Pacotes JSON não tão importantes.
+package-lock.json
+package.json 
+
