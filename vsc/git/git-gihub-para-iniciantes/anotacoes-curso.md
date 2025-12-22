@@ -324,3 +324,33 @@
 
 - git tag -d nome - apaga a tag local.
 - git push origin :nome tag ou branch - apaga a tag/branch remota.
+
+
+## Conteúdo adicional
+
+- Staging: Nome comum de branch de atualizações que não estão em produção.
+
+**Git  reflog**
+
+- Registro completo de todos as alterações. 
+
+**Pull request** 
+
+- Antes de mergiar para outra branch uma pessoa tem que aprovar o commit pelo pull request.
+- Antes de fazer um merge executar git pull na branch para atualizar os arquivos localmente.
+
+**Git ignore**
+
+- touch .gitignore - Adiciona um arquivo que ignora o que estiver dentro dele.
+
+**Git log --oneline** 
+
+- Apresenta o histórico de uma maneira resumida e simples.
+
+**Executar vários comandos ao mesmo tempo**
+
+- Usando && podemos usar dois comandos ao mesmo tempo. Ex: git add . && git commit -m "novo arquivo".
+
+
+
+
