@@ -347,6 +347,12 @@
 
 - Apresenta o histórico de uma maneira resumida e simples.
 
+**Git rm**
+
+- Remove o arquivo local e do histórico do git.
+- rm --cached - Remove somente o índice do git; mantém o arquivo. 
+- rm -r - Apaga diretórios inteiros.
+
 **Executar vários comandos ao mesmo tempo**
 
 - Usando && podemos usar dois comandos ao mesmo tempo. Ex: git add . && git commit -m "novo arquivo".
