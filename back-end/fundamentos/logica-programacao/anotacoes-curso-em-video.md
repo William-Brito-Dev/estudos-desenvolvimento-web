@@ -19,9 +19,9 @@ Definição de algoritmo
 ** Livro: Algoritmos: lógica de programação para programadores.
 
 
-## Aula 02 - Primeiro algoritmo 
+# Aula 02 - Primeiro algoritmo 
 
-Definição de algoritmo computacional 
+**Definição de algoritmo computacional** 
 
 - São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados na ordem correta, conseguem realizar determinada tarefa.
 
@@ -30,39 +30,39 @@ Definição de algoritmo computacional
 - Realizar tarefa: resolver um problema que o usuário esteja tendo.
 
 
-Como os algoritmos computacionais são criados?
+**Como os algoritmos computacionais são criados?**
 
 - Começam pela lógica de programação por meio do raciocínio lógico.
 - Aplicar esta lógica a uma linguagem de programação.
 - A liguagem vai ser utilizada para criar um aplicação.
 
 
-Ferramentas para representar a lógica de programação
+**Ferramentas para representar a lógica de programação**
 
 - Fluxograma.
 - Diagrama de Nassi.
 - Pseudocódigo: lógica de programação na linguagem nativa.
 
 
-Aplicativo a ser utilizado
+**Aplicativo a ser utilizado**
 
 - VisualG
 
 
-Comandos de saída 
+**Comandos de saída** 
 
 - Escreva: seu conteúdo deve estar entre aspas " ".
 - Escreval: pula linha, diferente do escreva.
 
 
-Variáveis
+**Variáveis**
 
 - Variáveis são um espaço reservado na memória do computador que será preenchida por dados.
 
 Bola: caractere -> indentificador: tipo de dado
 
 
-Indentificadores 
+**Indentificadores**
 
 Ao nomear uma variável deve-se obedecer essas 6 regras:
 
@@ -74,13 +74,73 @@ Ao nomear uma variável deve-se obedecer essas 6 regras:
 - não pode ser uma palavra reservada.
 
 
-Tipos de dados: primitivos
+**Tipos de dados: primitivos**
 
 - inteiro (int): guarda apenas números inteiros. Ex: 1, 5, 10, 999, -58
 - reais (float): guarda apenas números reais: Ex: -1, 1/2, 2.
 - caractere (string): guarda tudo o que estiver entre aspas " ".
 - lógico (bool): guarda apenas verdadeiro ou falso.
 
-Atribuição
+
+**Atribuição de dados**
 
 msg <- "olá, mundo" = msg recebe "olá, mundo".
+
+
+
+# Aula 03 - Comando de Entrada e Operadores
+
+**Comandos de entrada**
+
+- Leia(var): recebe um dado do usuário.
+
+
+**Operadores Aritméticos**
+
+(+) Adição
+(-) Subtração
+(*) Multiplicação
+(/) Divisão
+(\) Divisão inteira
+(^) Exponenciação
+(%) Módulo
+
+
+**Ordem de precedencia**
+
+Em expressões aritméticas:
+
+() parênteses
+^ Exponênciação
+*/ Multiplicação/divisão
++- Adição/subtração
+
+
+**Funções Aritméticas**
+
+Abs - Valor Absoluto
+Exp - Exponenciação
+Int - Valor inteiro
+RaizQ - Raiz Quadrada
+Pi - Retorna Pi
+Sen - Seno (rad)
+Cos - Cosseno (rad)
+Tan - Tangente (rad)
+Grauprad - Graus para Rad
+
+
+
+# Aula 04 - Operadores lõgicos e relacionais
+
+**Operadores Relacionais**
+
+- Geram como resultado um valor lógico (true/false)
+- Estão presentes em todas as linguagens de programação
+
+(>) Maior que
+(<) Menor que 
+(>=) Maior ou igual a 
+(<=) Menor ou igual a
+(=) Igual a 
+(<>) Diferente de
+
