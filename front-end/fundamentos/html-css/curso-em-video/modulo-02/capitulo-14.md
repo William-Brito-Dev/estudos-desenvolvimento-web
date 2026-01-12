@@ -1,5 +1,4 @@
-Capitulo 14 
-Aula 01 - Primeiros passos em Tipografia
+# Aula 01 - Primeiros passos em Tipografia
 
 - Durante os século 15 os monges copistas copiavam os livros à mão
 - Gutenberg cria a presa mêcanica para facilitar a cópias de livros
@@ -8,7 +7,7 @@ Aula 01 - Primeiros passos em Tipografia
 - O tipo de letra também influencia as pessoas
 
 
-Aula 02 - Anatomia do tipo
+# Aula 02 - Anatomia do tipo
 
 Anatomia do tipo
 - Time new romans é a padrão da geande maioria dos navegadores
@@ -48,7 +47,7 @@ Categoria de fontes
 - Ao acessar um site o usuário quer ler sem desconforto então é importante usar uma boa fonte e um bom contraste.
 
 
-Aula 03 - Familias de fontes com CSS
+# Aula 03 - Familias de fontes com CSS
 
 - Nem todo pc vai ter a fonte especificada.
 - Devemos colocar fontes que existam no dispositivo.
@@ -60,7 +59,7 @@ Aula 03 - Familias de fontes com CSS
 **CSS web safe combinations
 
 
-Aula 04 - Tamanho de fontes e suas medidas
+# Aula 04 - Tamanho de fontes e suas medidas
 
 Existem algumas formas de usarmos o font-size:
 -Temos medidas absolutas: cm, mm, in (inch), px, pt (point), pc (paica).
@@ -81,7 +80,7 @@ Temos medidas relativas: em, ex, rem, vw (viewidth), vh (viewhieght)
 - Por ser relativo, em é mais recomendável para visualizar em várias telas.
 
 
-Aula 05 - Peso, estilo e shorthand font
+# Aula 05 - Peso, estilo e shorthand font
 
 - Peso é quando fazemos as fontes ficam mais "magras" ou "gordas".
 - Usamos font-weight para definir o peso da fonte.
@@ -100,14 +99,14 @@ Aula 05 - Peso, estilo e shorthand font
 **Usar as recomendações do W3C
 
 
-Aula 06 - Usando Google Fonts 
+# Aula 06 - Usando Google Fonts 
 
 - Usar as fontes disponíveis do Google Fonts 
 - Disponibiliza as declarações do CSS para implementar no código.
 - Recomendado utilizar de 3 a 4 famílias. Não mais que isso.
 
 
-Aula 07 - Usando fontes externa baixadas 
+# Aula 07 - Usando fontes externa baixadas 
 
 - Dafont.com
 
@@ -136,12 +135,12 @@ format(): tipo do formato da fonte. Temos os seguintes formatos:
 - Geralmente deixamos as fontes em pastas separadas dos arquivos principais.
 
 
-Aula 08 - Capturando as fontes usadas em um site 
+# Aula 08 - Capturando as fontes usadas em um site 
 
 - Baixando e utilizando a extensão Fonts Ninjas.
  
 
-Aula 09 - Detectando fontes dentro de imagens 
+# Aula 09 - Detectando fontes dentro de imagens 
 
 Sites que capturam as fontes pela imagem 
 
@@ -150,7 +149,7 @@ fontsquirrel.com
 myfont.com 
 
 
-Aula 10 - Alinhamento de textos com CSS 
+# Aula 10 - Alinhamento de textos com CSS 
 
 - <center> não se usa mais. Está obseleta.
 
